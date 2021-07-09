@@ -1,0 +1,38 @@
+{
+  "name": "express-api-starter",
+  "version": "1.2.0",
+  "description": " A basic starter for an express.js API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "lint": "eslint --fix src",
+    "test": "mocha --exit"
+  },
+  "keywords": [],
+  "author": "Daposta",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daposta/node-urlshortner"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "mongoose": "^5.13.2",
+    "morgan": "^1.10.0",
+    "nanoid": "^3.1.23",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "mocha": "^9.0.0",
+    "nodemon": "^2.0.7",
+    "supertest": "^6.1.3"
+  }
+}
